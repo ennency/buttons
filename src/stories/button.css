@@ -1,0 +1,87 @@
+.btn {
+  padding: 8px 16px;
+  box-shadow: 0px 2px 3px 0px #333333 20%;
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #3f3f3f;
+  box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
+  border-radius: 6px;
+  transition: all 0.3s ease-in;
+  cursor: pointer;
+}
+
+.btn--default {
+  border: none;
+  background: #e0e0e0;
+}
+
+.btn--default:hover,
+.btn--default:focus {
+  background-color: #aeaeae;
+}
+
+.btn--outline {
+  color: #3d5afe;
+  border: 1px solid #3d5afe;
+  background: #fff;
+}
+
+.btn--outline:hover,
+.btn--outline:focus {
+  background: rgba(41, 98, 255, 0.1);
+}
+
+.btn--text {
+  border: none;
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.btn--text:hover,
+.btn--text:focus {
+  background: rgba(41, 98, 255, 0.1);
+}
+
+.btn--disabled-shadow {
+  box-shadow: none;
+}
+
+@font-face {
+  font-family: "Material Icons";
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://example.com/MaterialIcons-Regular.eot); /* For IE6-8 */
+  src: local("Material Icons"), local("MaterialIcons-Regular"),
+    url(https://example.com/MaterialIcons-Regular.woff2) format("woff2"),
+    url(https://example.com/MaterialIcons-Regular.woff) format("woff"),
+    url(https://example.com/MaterialIcons-Regular.ttf) format("truetype");
+}
+.material-icons {
+  font-family: "Material Icons";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px; /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: "liga";
+}
